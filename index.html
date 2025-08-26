@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Suzzy Tech Whatsapp Unban</title>
+<link rel="icon" href="/assets/favicon.svg" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-anim" aria-hidden="true"></div>
+<main class="app">
+  <header class="top">
+    <div class="logo-wrap">
+      <img src="assets/favicon.svg" alt="" class="logo"/>
+      <h1 class="title rainbow-text">Suzzy Tech <span class="muted">Whatsapp Unban</span></h1>
+    </div>
+    <p class="subtitle anim-type">Provide your number, select an unban protocol, and choose your recovery channel.</p>
+  </header>
+
+  <section class="panel">
+    <label class="field-label">Phone number</label>
+    <div class="input-row">
+      <input id="number" type="tel" inputmode="tel" placeholder="+2348012345678" maxlength="20" required />
+    </div>
+
+    <label class="field-label">Unban version</label>
+    <div class="input-row select-row">
+      <select id="version" aria-label="Unban version">
+        <option value="V1" data-color="#00f6ff">Unban V1</option>
+        <option value="V2" data-color="#7c4dff">Unban V2</option>
+        <option value="V3" data-color="#00ff9d">Unban V3</option>
+        <option value="V4" data-color="#ffd300">Unban V4</option>
+        <option value="V5" data-color="#ff4db8">Unban V5</option>
+        <option value="V6" data-color="#18ffb0">Unban V6</option>
+        <option value="V7" data-color="#4dd0ff">Unban V7</option>
+        <option value="V8" data-color="#ffa64d">Unban V8 (DE)</option>
+        <option value="V9" data-color="#ff7a7a">Unban V9</option>
+        <option value="V10" data-color="#a78bfa">Unban V10</option>
+        <option value="V11" data-color="#5eead4">Unban V11</option>
+        <option value="V12" data-color="#ffb86b">Unban V12</option>
+        <option value="V13" data-color="#8bbaff">Unban V13 (IT)</option>
+        <option value="V14" data-color="#ff9cdf">Unban V14 (PT)</option>
+      </select>
+      <div id="versionBadge" class="version-badge">V1</div>
+    </div>
+
+    <div class="actions">
+      <button id="openApp" class="btn btn-app">📱 Unban with App</button>
+      <button id="openGmail" class="btn btn-web">🌐 Unban with Web</button>
+    </div>
+  </section>
+
+  <footer class="foot">
+     <a class="subscribe" href="https://www.whatsapp.com/channel/0029Vb6czaK3GJP2Dngjjj09/105" target="_blank" rel="noopener">🔥 Message me on Whatsapp</a>
+    <a class="subscribe" href="https://www.youtube.com/@SuzzyTech" target="_blank" rel="noopener">🔥 Support us — Subscribe on YouTube</a>
+    <p class="tiny muted">We don't store your number. This page only opens your mail client with the appeal message.</p>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
